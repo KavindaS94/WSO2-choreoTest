@@ -1,82 +1,38 @@
-# Gizmo Gazette : Tech Gadget Review Platform
+# AngularCrudOperations
 
-Dive into our comprehensive analyses of the latest gadgets, from smartphones to smart home devices. Stay ahead with our expert opinions and find your next tech obsession with us. Join our community of tech enthusiasts and navigate the ever-evolving world of technology with confidence.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
-## Pre-requisites
+## Development server
 
-### Step 1: Install NodeJS
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-NodeJS is a tool that helps you run JavaScript code on your computer. Follow these simple steps to install it:
+## Code scaffolding
 
-1. Visit the NodeJS website by clicking on this link: [NodeJS Download](https://nodejs.org/en/download/).
-2. You'll see two versions to choose from: "LTS" and "Current." For simplicity and stability, let's go with the "LTS" (Long Term Support) version. Click on it.
-3. On the download page, you'll find installers for different operating systems like Windows, macOS, and Linux. Select the one that matches your computer's operating system, and click to download it.
-4. Once the installer is downloaded, run it by double-clicking on the file. Follow the installation instructions, which are usually straightforward. You can use the default settings in most cases.
-5. After the installation is complete, you can check if NodeJS is properly installed by opening your computer's terminal or command prompt and typing `node -v`. If you see a version number, it means NodeJS is installed.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
-### Step 2: Install Git
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Git is a tool that helps you manage and track changes in your code. Here's how to install it:
+## Running unit tests
 
-1. Visit the Git website by clicking on this link: [Git Download](https://git-scm.com/downloads).
-2. You'll see download options for different operating systems. Choose the one that matches your computer's operating system, and click to download it.
-3. Once the Git installer is downloaded, run it by double-clicking on the file. Follow the installation instructions. Again, you can typically use the default settings.
-4. After the installation is complete, you can check if Git is properly installed by opening your computer's terminal or command prompt and typing `git --version`. If you see a version number, it means Git is installed.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running the tests
+## Running end-to-end tests
 
-Install project dependencies:
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-``npm install``
+## Further help
 
-Run tests:
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-``jest``
+# AngularCrudOperations
+Angular CRUD operations
 
-## Running the app
+# Operations
+  * Create
+  * Read
+  * Update
+  * Delete
 
-You can open the `index.html` in a browser directly from the directory itself.
-
-## Tasks to complete
-
-### Task 1
-
-
-### Task 2
-
-In our tech gadget rating system, accurate ratings are paramount, and it's important to note that the lowest rating may not always accurately represent a product's quality. To address this, we need to refine our rating criteria for a more balanced and informative system. 
-
-The solution should be implemented within the `findLowestRatedProduct` function in the `app.js` file.
-
-### Task 3
-
-Additionally, our system highlights the highest-rated product, a key feature that deserves attention. Your expertise in enhancing this aspect is vital to ensure our system effectively presents the top-rated products, making a significant impact on our user experience.
-
-To address this, the solution should be implemented within the `findHighestRatedProduct` function in the `app.js` file.
-
-### Task 4
-
-In our Tech Gadget review system, we identify verified products based on a unique criterion: if the `reviewId` is a palindrome number, it qualifies as a verified product. Your expertise in optimizing this feature will significantly enhance the reliability and user experience of our platform.
-
-To address this, the solution should be implemented within the `isPalindrome` function in the `app.js` file.
-
-### Task 5
-
-it is important to provide users with accurate average ratings for tech gadgets. This task is a crucial component of our technical assessment, and your expertise in optimizing this feature will contribute significantly to the precision and value of our platform.
-
-To address this, the solution should be on the implementation of the `calculateAverageRating` function located in `app.js`.
-
-### Task 6
-
-Furthermore, in our Tech Gadget review system, obtaining the count of verified products is a key metric for our users.  Your expertise in optimizing this functionality is integral to accurately providing users with insights into the number of verified products, enhancing the overall user experience on our platform.
-
-To address this, the solution should be on the implementation of the `noOfVerifiedReviews` function within `app.js`.
-
-
-Task 7 
-
-
-In conclusion, these enhancements are vital for our Tech Gadget review system, as they empower us to deliver more accurate product. Your contributions in optimizing these functionalities are instrumental in providing an enhanced user experience within our tech-oriented domain
-
-###### *Technical Support : +9471 382 6109*
+![picture](./src/assets/CRUD.gif)
